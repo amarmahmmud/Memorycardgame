@@ -1,0 +1,17 @@
+.mcg-app {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  padding: 16px;
+}
+.mcg-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.mcg-controls select {
+  margin-left: 8px;
+}
+.mcg-board {
+  display: grid;
+  gap: 8px;
+}

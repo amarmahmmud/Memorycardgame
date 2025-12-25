@@ -1,0 +1,10 @@
+<!-- Simple SVG flower demo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="12" fill="#FFD54F"/>
+  <g fill="#FF6F61">
+    <ellipse cx="50" cy="22" rx="10" ry="18"/>
+    <ellipse cx="78" cy="50" rx="10" ry="18" transform="rotate(90 78 50)"/>
+    <ellipse cx="50" cy="78" rx="10" ry="18" transform="rotate(180 50 78)"/>
+    <ellipse cx="22" cy="50" rx="10" ry="18" transform="rotate(270 22 50)"/>
+  </g>
+</svg>

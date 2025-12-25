@@ -1,11 +1,22 @@
+# Memory Card Game
 
-  # Memory Card Game
+This game has been extended to support:
+- Multiple levels with different grid sizes and card sets
+- Image-based cards (local assets in assets/images/)
+- Mixed text + image levels
+- A level selector and restart control
 
-  This is a code bundle for Memory Card Game. The original project is available at https://www.figma.com/design/BoCTRFm6S1siJn99bwM5mr/Memory-Card-Game.
+How to add a new level:
+1. Open `src/data/levels.ts`.
+2. Add an object to the `levels` array with:
+   - id: number
+   - title: string
+   - rows, cols: numbers (grid layout)
+   - cards: array of card definitions, each with:
+     - id: string (unique per card definition)
+     - pairKey: string (cards with same pairKey match)
+     - text?: string
+     - image?: string (e.g. "/assets/images/my-image.svg")
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+Demo images:
+- Small SVG demo assets are included under `assets/images/` as examples.

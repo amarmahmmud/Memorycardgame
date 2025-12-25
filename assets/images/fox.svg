@@ -1,0 +1,7 @@
+<!-- Simple fox-ish demo icon -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <path d="M50 10 L70 30 L90 20 L80 40 L90 70 L60 60 L50 90 L40 60 L10 70 L20 40 L10 20 L30 30 Z"
+    fill="#FF8A65" stroke="#D84315"/>
+  <circle cx="40" cy="55" r="4" fill="#000"/>
+  <circle cx="60" cy="55" r="4" fill="#000"/>
+</svg>
